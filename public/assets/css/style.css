@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../fonts/BYekan-webfont.eot") format("eot"), url("../fonts/BYekan-webfont.woff") format("woff"), url("../fonts/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+html , #root{
+    height: 100%;
+}
+*{
+    outline: none !important;
+    box-shadow: none !important;
+}
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(145deg, #5309bb 0%, #333 100%);
+}
+
+*{
+    font-family: BYekan;
+    direction: rtl;
+    text-align: right;
+}
+
+.pointer{
+    cursor: pointer !important;
+}
+
+.transition_200{
+    transition: all 200ms ease;
+}
+.text_hover_shadow:hover{
+    text-shadow: 0 0 3px black;
+}
+.text_title{
+    color: #fff;
+    text-shadow: 0 0 8px #5309bb;
+}
+
+.task_List{
+    background: linear-gradient(-145deg, #7028d5 0%, #1f1f1f 100%);
+    backdrop-filter: blur(10px);
+    height: fit-content;
+}
+
+.form-control{
+    color: white !important;
+    border: 1px solid white !important;
+}
